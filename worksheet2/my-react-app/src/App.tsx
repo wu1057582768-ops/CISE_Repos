@@ -26,8 +26,12 @@ class App extends Component<{}, State> {
         <button className="increment" onClick={this.increment}>
           Increment count
         </button>
+
+        {/* 新增文本用于测试 */}
+        <p>Learn React</p>
       </div>
     );
   }
 }
+
 export default App;
