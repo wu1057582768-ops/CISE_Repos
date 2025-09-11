@@ -31,3 +31,15 @@ jobs:
     
     - name: Build  
       run: npm run build
+
+    - name: Install dependencies
+      run: npm install
+      working-directory: ./worksheet2/my-react-app
+
+    - name: Build
+      run: npm run build
+      working-directory: ./worksheet2/my-react-app
+
+    - name: Start
+      run: npm start
+      working-directory: ./worksheet2/my-react-app
