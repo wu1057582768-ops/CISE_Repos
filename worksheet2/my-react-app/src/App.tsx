@@ -28,7 +28,7 @@ class App extends Component<{}, State> {
         </button>
 
         {/* 新增文本用于测试 */}
-        <p>Learn React</p>
+        
       </div>
     );
   }

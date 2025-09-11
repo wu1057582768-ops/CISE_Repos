@@ -8,7 +8,7 @@ it("renders without crashing", () => {
   root.unmount();
 });
 describe('Addition', () => {
-      it('knows that 2 and 2 make 4', () => {
+      it('knows that 2 and 2 make4', () => {
         expect(2 + 2).toBe(4);
       });
     });
